@@ -97,6 +97,21 @@ The new package is written to `app/build/outputs/apk/debug/app-debug.apk`.
 
 ---
 
+## Roadmap
+
+None of this is in version 1.10. It is the list of what GhostMode Android is being built toward. Each item stays on the phone it is installed on, and the destructive ones keep a confirmation so they cannot run by a stray tap.
+
+- **Tor and I2P for the whole device.** Send the phone's traffic through Tor, and through I2P when that is the path that fits, and stop traffic if the tunnel drops. The aim is the same as the Linux toolkit: the handset does not keep talking in the clear when the cover is on.
+- **Hidden traces.** Go past the files already listed. Wipe temporary files, leftover caches, thumbnail stores, and the other hidden debris phones keep after an app, a browser, or a download is gone.
+- **Photos, audio, and video.** A section of its own. Remove the pictures, recordings, and clips the owner selects, and strip the hidden details from the ones they keep: location, device, and timestamps.
+- **A schedule that keeps running.** Pick any section and a time. GhostMode keeps emptying that section completely on that schedule, including after a reboot, without the app staying open on screen.
+- **Format.** One button that wipes the phone back to a clean device. It asks twice. It formats this phone only.
+- **End of session.** One action that runs every cleanup the owner has armed, then locks the screen. For closing the day in a single press instead of walking the list.
+- **Notifications, recents, and downloads.** Clear the shade, the recent-apps list, and the download history that still name what was just removed.
+- **Per-app network hold.** The phone-side partner of the Linux kill switch. A chosen app stops sending while the hold is on, and stays stopped until the owner lifts it.
+
+---
+
 ## Series
 
 - [GhostMode](https://github.com/cmpsec/ghostmode) — the Linux toolkit: Tor and a kill switch, fingerprint rotation, location, metadata, and cleanup
