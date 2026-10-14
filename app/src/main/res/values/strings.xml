@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GhostMode</string>
+    <string name="admin_label">GhostMode</string>
+    <string name="admin_desc">Device admin for today’s activity</string>
+    <string name="access_desc">Opens Chrome history when you ask, and opens Remove account so you can confirm it</string>
+</resources>

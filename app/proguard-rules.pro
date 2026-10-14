@@ -1,0 +1,1 @@
+-keep class com.today.td.root.PrivilegedEntry { *; }
